@@ -1,0 +1,22 @@
+{
+  "name": "twitterproj",
+  "version": "1.0.0",
+  "description": "twitter scraper that scrapes by content, handle or randomly",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "twitter",
+    "scraper"
+  ],
+  "author": "Scott Miller",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "redis": "^2.6.2",
+    "socket.io": "^1.5.0",
+    "twitter": "^1.4.0"
+  }
+}
