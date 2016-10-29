@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+     <script src='/socket.io/socket.io.js'></script>
+     <script src='./twitterSearch.js'></script>
+      <link rel="stylesheet" type="text/css" href="./twitterSearchStyle.css">
+     <link href='https://fonts.googleapis.com/css?family=Exo+2:400,900' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+  </head>
+  <body>
+    </div>
+    <div id='top'>
+      <div id='status'></div>
+      <input class='userInput' id='chat' placeholder="search twitter for this content..." type='text'/><button class='b1' id='contentSearch'>Search Twitter by Content!</button>
+      <br>
+      <input class='userInput' id='user' placeholder="search twitter for this user..." type='text'/><button class= 'b1' id='userSearch'>Search Twitter by User!</button>
+      <br>
+      <br>
+      <button class='b1' id='rando'>Get Random Recent Tweets!</button>
+      <button id='delete'>Delete Stored Tweets</button>
+      <br>
+    </div>
+    <div id='status1'></div>
+    <div id='search'></div>
+    <div id='bg'>
+      <div id="game-box"></div>
+    </div>
+  </body>
+</html>
